@@ -30,7 +30,7 @@ IBSR can:
 - sign arbitrary messages on behalf of a ring
 - verify signatures
 
-A test program, `test-ibsr.c`, is provided for testing and benchmarking.
+A test program, `test-utility.c`, is provided for testing and benchmarking.
 
 ## Dependencies
 
@@ -84,7 +84,7 @@ ibsr_verify_sign(sign, params);
 
 ## Test program
 
-After building, `test-ibsr` accepts the following arguments:
+After building, `test-utility` accepts the following arguments:
 
 | Option | Description |
 |---|---|
